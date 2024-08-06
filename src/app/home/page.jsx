@@ -11,7 +11,7 @@ import ai from "@/assets/ai.png";
 import atom from "@/assets/atom.png";
 import Image from "next/image";
 
-const home = () => {
+const Home = () => {
   const auth = getAuth();
   const router = useRouter();
   const [user, setUser] = useState(null);
@@ -135,4 +135,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
