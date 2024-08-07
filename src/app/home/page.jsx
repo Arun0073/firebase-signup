@@ -51,13 +51,13 @@ const Home = () => {
           <p className="text-white font-semibold text-xl">
             Popular Topics <span>&#128293;</span>
           </p>
-          <div className="flex flex-row ">
+          <div className="flex flex-row lg:visible invisible ">
             <Image src={left} width={30} height={30} className="mr-4" />
             <Image src={right} width={30} height={30} />
           </div>
         </div>
         <div className="flex lg:flex-row flex-col mt-12 ">
-          <div className="border-custom-gray border flex flex-col rounded-lg ">
+          <div className="border-custom-gray lg:border border-t-2 border-r-2 border-b-4 border-l-2 flex flex-col rounded-lg ">
             <div className="flex flex-row pt-3 pl-4 pr-10">
               <Image
                 src={rocket}
@@ -77,11 +77,11 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <button className="text-white border-custom-gray border ml-4 mt-4 mr-4 mb-4 rounded-md pt-2 pb-2 font-bold text-base">
+            <button className="text-white border-custom-gray border ml-4 lg:mt-4 mr-4 lg:mb-4 rounded-md pt-2 pb-2 font-bold text-base lg:visible invisible">
               Read
             </button>
           </div>
-          <div className="border-custom-gray border flex flex-col rounded-lg lg:ml-4 lg:mr-4 lg:mt-0 mt-4 ">
+          <div className="border-custom-gray lg:border border-t-2 border-r-2 border-b-4 border-l-2 flex flex-col rounded-lg lg:ml-4 lg:mr-4 lg:mt-0 mt-4 ">
             <div className="flex flex-row pt-3 pl-4 pr-10 ">
               <Image
                 src={atom}
@@ -101,11 +101,11 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <button className="text-white border-custom-gray border ml-4 mr-4 mb-4 mt-11 rounded-md pt-2 pb-2 font-bold text-base">
+            <button className="text-white border-custom-gray border ml-4 mr-4 lg:mb-4 lg:mt-11 rounded-md pt-2 pb-2 font-bold text-base lg:visible invisible">
               Read
             </button>
           </div>
-          <div className="border-custom-gray border flex flex-col rounded-lg lg:mt-0 mt-4 ">
+          <div className="border-custom-gray lg:border border-t-2 border-r-2 border-b-4 border-l-2 flex flex-col rounded-lg lg:mt-0 mt-4 ">
             <div className="flex flex-row pt-3 pl-4 pr-10">
               <Image
                 src={ai}
@@ -125,7 +125,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <button className="text-white border-custom-gray border ml-4 mr-4 mb-4 mt-11 rounded-md pt-2 pb-2 font-bold text-base">
+            <button className="text-white border-custom-gray border ml-4 mr-4 lg:mb-4 lg:mt-11 rounded-md pt-2 pb-2 font-bold text-base lg:visible invisible ">
               Read
             </button>
           </div>
