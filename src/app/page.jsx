@@ -150,7 +150,7 @@ const Page = () => {
               </>
             )}
           </div>
-          <p className="lg:mt-24 mt-20 lg:mb-4 font-normal text-base">
+          <p className="lg:mt-24 mt-20 lg:mb-4 translate-y-24 lg:translate-y-0 font-normal text-base">
             Already a user?{" "}
             <span className="text-custom-blue cursor-pointer">Log in</span>
           </p>
