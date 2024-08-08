@@ -85,29 +85,31 @@ const Page = () => {
                   <>
                     <button
                       onClick={signInWithGoogle}
-                      className="flex flex-row border-2  bg-custom-black rounded-lg border-custom-gray pt-3  pb-3 lg:pl-16 lg:pr-16 pl-12 pr-12"
+                      className="flex flex-row border-2  bg-custom-black rounded-lg border-custom-gray pt-3  pb-3 lg:pl-16 lg:pr-16 sm:pl-16 sm:pr-16 pl-12 pr-12"
                     >
                       <Image
                         src={google}
                         alt="Google Image"
                         width={24}
                         height={24}
+                        className="pt-1 lg:pt-0"
                       />
-                      <p className="pl-3 pt-1 lg:pt-0 lg:text-lg text-sm">
+                      <p className="pl-3 pt-1 lg:pt-0 lg:text-lg sm:text-lg ">
                         Sign up with Google
                       </p>
                     </button>
                     <button
                       onClick={() => setShowEmailForm(true)}
-                      className="flex flex-row border-2 mt-5 bg-custom-black rounded-lg border-custom-gray pt-3 pb-3 lg:pl-16 lg:pr-16 pl-12 pr-12"
+                      className="flex flex-row border-2 mt-5 bg-custom-black rounded-lg border-custom-gray pt-3 pb-3 lg:pl-16 lg:pr-16 sm:pl-16 sm:pr-16 pl-12 pr-12"
                     >
                       <Image
                         src={emailIcon}
                         alt="Email Image"
-                        width={26}
-                        height={26}
+                        width={25}
+                        height={25}
+                        className="pt-1 "
                       />
-                      <p className="pl-3  lg:text-lg text-sm">
+                      <p className="pl-3 lg:text-lg pt-1 lg:pt-0 sm:text-lg ">
                         Sign up with Email
                       </p>
                     </button>
